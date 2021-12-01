@@ -1,0 +1,62 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Serif', serif;
+  color: black;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instructions-panel {
+  text-align: center;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.instructions-text {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.generated-gradient-panel {
+  text-align: center;
+}
+
+.generated-gradient-text {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+  letter-spacing: 2px;
+  color: grey;
+  border-radius: 5px;
+  border: 0;
+}
+
+.btn:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

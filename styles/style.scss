@@ -1,0 +1,53 @@
+// 1. Instructions Text need color generated and set by script, white 4now
+
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    color: black;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //background: linear-gradient(to left, #3AC489, #83C4ED);
+}
+
+.instructions-panel{
+    text-align: center;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.instructions-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.generated-gradient-panel{
+    text-align: center;
+}
+
+.generated-gradient-text{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.btn {
+    height: 40px;
+    width: 120px;
+    letter-spacing: 2px;
+    color: grey;
+    border-radius: 5px;
+    border: 0;
+
+    &:hover{
+        color: black;
+    }
+}
